@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>House</title>
+</head>
+<body>
+    <canvas id="the-canvas" width="800" height="600"></canvas>
+    <img id="image" src="C:\Users\Plamen\Desktop\Untitled.png" alt="" />
+    <script>
+        var canvas = document.getElementById('the-canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.canvas.style.background = '#444';
+        drawHouse(ctx, 450, 100, 260, 200);
+        drawWindow(ctx, 470, 280, 90, 60);
+        drawWindow(ctx, 600, 280, 90, 60);
+        drawWindow(ctx, 600, 350, 90, 60);
+        drawDoor(ctx, 483, 340, 60, 110, 30);
+        drawChimney(ctx, 620, 120, 30, 100, 5);
+        drawBicycle(ctx, 50, 350, 200, 150, 40);
+        drawBiker(ctx, 80, 120, 100, 140);
+        drawHat(ctx, 150, 160, 50, 60, 10);
+
+        function drawHouse(ctx, x, y, width, height) {
+            ctx.fillStyle = 'gray'
+            ctx.strokeStyle = 'black';
+            ctx.fillRect(x, y+150, width, height);
+            ctx.strokeRect(x, y+150, width, height);
+            ctx.beginPath();
+            ctx.moveTo(x, y+150);
+            ctx.lineTo(x+130, y);
+            ctx.lineTo(x+260, y+150);
+            ctx.fill();
+            ctx.stroke();
+        }
+
+        function drawChimney(ctx, x, y, width, height, curveHeight) {
+            ctx.beginPath();
+            ctx.moveTo(x, y + height);
+            ctx.lineTo(x, y + curveHeight);
+            ctx.bezierCurveTo(x, y, x + width, y, x + width, y + curveHeight);
+            ctx.lineTo(x + width, y + height);
+
+            ctx.fillStyle = 'gray';
+            ctx.fill();
+            ctx.moveTo(x + width, y + curveHeight);
+            ctx.bezierCurveTo(x + width, y + 2 * curveHeight, x, y + 2 * curveHeight, x, y + curveHeight);
+            ctx.stroke();
+        }
+
+        function drawWindow(ctx, x, y, width, height) {
+            ctx.fillStyle = 'black';
+            var innerRectWidth = width / 2 - 3;
+            var innerRectHeight = height / 2 - 3;
+            ctx.fillRect(x, y, innerRectWidth, innerRectHeight);
+            ctx.fillRect(x + innerRectWidth + 3, y, innerRectWidth, innerRectHeight);
+            ctx.fillRect(x, y + innerRectHeight + 3, innerRectWidth, innerRectHeight);
+            ctx.fillRect(x + innerRectWidth + 3, y + innerRectHeight + 3, innerRectWidth, innerRectHeight);
+        }
+
+        function drawDoor(ctx, x, y, width, height, curveHeight) {
+            ctx.fillStyle='gray'
+            ctx.beginPath();
+            ctx.moveTo(x, y + height);
+            ctx.lineTo(x, y + curveHeight);
+            ctx.bezierCurveTo(x, y, x + width, y, x + width, y + curveHeight);
+            ctx.lineTo(x + width, y + height);
+            ctx.moveTo(x + width / 2, y + height);
+            ctx.lineTo(x + width / 2, y + curveHeight / 4);
+            ctx.moveTo(x + width / 2 - 10 + 5, y + 3 * height / 4);
+            ctx.arc(x + width / 2 - 10, y + 3 * height / 4, 5, 0, 2 * Math.PI);
+            ctx.moveTo(x + width / 2 + 10 + 5, y + 3 * height / 4);
+            ctx.arc(x + width / 2 + 10, y + 3 * height / 4, 5, 0, 2 * Math.PI);
+            ctx.stroke();
+        }
+
+        function drawBicycle(ctx, x, y, width, height, tireRadius) {
+            ctx.beginPath();
+            ctx.fillStyle = 'lightblue';
+            //drawing rear tyre
+            ctx.arc(x + width / 4, y + 2 * height / 3, tireRadius, 0, 2 * Math.PI);
+            //drawing front tyre
+            ctx.moveTo(x + width + tireRadius, y + 2 * height / 3);
+            ctx.arc(x + width, y + 2 * height / 3, tireRadius, 0, 2 * Math.PI);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+            //drawing pedals
+            ctx.beginPath();
+            ctx.moveTo(x + 3 * width / 5, y + 2 * height / 3);
+            ctx.lineTo(x + 3 * width / 5 - 10, y + 2 * height / 3 - 15);
+            ctx.moveTo(x + 3 * width / 5, y + 2 * height / 3);
+            ctx.lineTo(x + 3 * width / 5 + 10, y + 2 * height / 3 + 15);
+            ctx.closePath();
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(x + 3 * width / 5 + 10, y + 2 * height / 3);
+            ctx.arc(x + 3 * width / 5, y + 2 * height / 3, 10, 0, 2 * Math.PI);
+            ctx.fillStyle = '#444';
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+            //drawing frame
+            ctx.beginPath();
+            ctx.moveTo(x + width / 4, y + 2 * height / 3);
+            ctx.lineTo(x + 3 * width / 5, y + 2 * height / 3);
+            ctx.lineTo(x + width - 5, y + height / 3);
+            ctx.lineTo(x + width / 2, y + height / 3);
+            ctx.closePath();
+            ctx.stroke();
+            //drawing fork
+            ctx.beginPath();
+            ctx.moveTo(x + width, y + 2 * height / 3);
+            ctx.lineTo(x + width - 5, y + height / 6);
+            ctx.lineTo(x + width - tireRadius, y + height / 4);
+            ctx.moveTo(x + width - 5, y + height / 6);
+            ctx.lineTo(x + width + tireRadius / 2, y + height / 15);
+            ctx.stroke();
+            //drawing seat
+            ctx.beginPath();
+            ctx.moveTo(x + 3 * width / 5, y + 2 * height / 3);
+            ctx.lineTo(x + 13 * width / 30, y + height / 6);
+            ctx.lineTo(x + 13 * width / 30 - 15, y + height / 6);
+            ctx.moveTo(x + 13 * width / 30, y + height / 6);
+            ctx.lineTo(x + 13 * width / 30 + 15, y + height / 6);
+            ctx.stroke();
+        }
+
+        function drawElipse(ctx, x, y, radius, scaleX, scaleY) {
+            ctx.beginPath();
+            ctx.scale(scaleX, scaleY);
+            ctx.beginPath();
+            ctx.arc(x / scaleX, y / scaleY, radius, 0, 2 * Math.PI);
+            ctx.fill();
+            ctx.stroke();
+            ctx.restore();
+            ctx.save();
+        }
+
+        function drawHat(ctx, x, y, width, height, curveHeight) {
+            drawElipse(ctx, x+width/2, y+height, width, 1, 0.3);// hat base
+
+            ctx.beginPath();
+            ctx.moveTo(x, y + height);
+            ctx.lineTo(x, y + curveHeight);
+            ctx.bezierCurveTo(x, y, x + width, y, x + width, y + curveHeight);
+            ctx.lineTo(x + width, y + height);
+
+            ctx.fillStyle = 'purple';
+            ctx.fill();
+            ctx.moveTo(x + width, y + curveHeight);
+            ctx.bezierCurveTo(x + width, y + 2 * curveHeight, x, y + 2 * curveHeight, x, y + curveHeight);
+            ctx.moveTo(x + width, y + height);
+            ctx.bezierCurveTo(x + width, y + height + curveHeight, x, y + height + curveHeight, x, y + height);
+            ctx.stroke();
+        }
+
+        function drawBiker(ctx, x, y, width, height) {
+            ctx.strokeStyle = "black";
+            ctx.lineWidth = 1;
+            ctx.fillStyle = "lightblue";
+            ctx.save();
+            drawElipse(ctx, x + 95, y + 145, width / 2, 1, 1); // head
+
+            drawElipse(ctx, x + 70, y + 130, width / 10, 1, 0.5);//left eye as we see it on the display
+            ctx.fillStyle = ctx.strokeStyle;
+            drawElipse(ctx, x + 65, y + 130, width / 25, 0.5, 1);
+
+            drawElipse(ctx, x + 110, y + 130, width / 10, 1, 0.5);//right eye 
+            ctx.fillStyle = ctx.strokeStyle;
+            drawElipse(ctx, x + 105, y + 130, width / 25, 0.5, 1);
+
+            ctx.moveTo(x+90, y+130);//nose
+            ctx.lineTo(x+75, y+155);
+            ctx.lineTo(x+90, y+155);
+            ctx.stroke();
+
+            //mouth
+            drawElipse(ctx, x + 90, y + 170, width/5, 1, 0.3);
+          
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 1;
+            ctx.fillStyle = 'purple';
+        }
+        
+    </script>
+</body>
+</html>

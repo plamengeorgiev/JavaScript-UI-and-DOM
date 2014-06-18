@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkSVG\HomeworkSVG\bin\HomeworkSVG.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkSVG\HomeworkSVG\bin\HomeworkSVG.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkSVG\HomeworkSVG\obj\Debug\HomeworkSVG.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkSVG\HomeworkSVG\obj\Debug\HomeworkSVG.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkSVG\HomeworkSVG\obj\Debug\HomeworkSVG.pdb

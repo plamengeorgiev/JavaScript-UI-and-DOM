@@ -1,0 +1,5 @@
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkDOM\HomeworkDOM\bin\HomeworkDOM.dll
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkDOM\HomeworkDOM\bin\HomeworkDOM.pdb
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkDOM\HomeworkDOM\obj\Debug\HomeworkDOM.csprojResolveAssemblyReference.cache
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkDOM\HomeworkDOM\obj\Debug\HomeworkDOM.dll
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkDOM\HomeworkDOM\obj\Debug\HomeworkDOM.pdb

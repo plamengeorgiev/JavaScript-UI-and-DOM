@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkKineticJS\HomeworkKineticJS\bin\HomeworkKineticJS.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkKineticJS\HomeworkKineticJS\bin\HomeworkKineticJS.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkKineticJS\HomeworkKineticJS\obj\Debug\HomeworkKineticJS.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkKineticJS\HomeworkKineticJS\obj\Debug\HomeworkKineticJS.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkKineticJS\HomeworkKineticJS\obj\Debug\HomeworkKineticJS.pdb

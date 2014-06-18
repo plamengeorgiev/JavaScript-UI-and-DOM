@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkRaphael\HomeworkRaphael\bin\HomeworkRaphael.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkRaphael\HomeworkRaphael\bin\HomeworkRaphael.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkRaphael\HomeworkRaphael\obj\Debug\HomeworkRaphael.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkRaphael\HomeworkRaphael\obj\Debug\HomeworkRaphael.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkRaphael\HomeworkRaphael\obj\Debug\HomeworkRaphael.pdb

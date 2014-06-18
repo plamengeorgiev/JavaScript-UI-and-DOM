@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkJQueryPlugins\HomeworkJQueryPlugins\bin\HomeworkJQueryPlugins.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkJQueryPlugins\HomeworkJQueryPlugins\bin\HomeworkJQueryPlugins.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkJQueryPlugins\HomeworkJQueryPlugins\obj\Debug\HomeworkJQueryPlugins.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkJQueryPlugins\HomeworkJQueryPlugins\obj\Debug\HomeworkJQueryPlugins.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkJQueryPlugins\HomeworkJQueryPlugins\obj\Debug\HomeworkJQueryPlugins.pdb

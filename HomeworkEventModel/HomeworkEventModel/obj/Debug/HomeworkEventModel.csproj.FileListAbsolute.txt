@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkEventModel\HomeworkEventModel\bin\HomeworkEventModel.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkEventModel\HomeworkEventModel\bin\HomeworkEventModel.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkEventModel\HomeworkEventModel\obj\Debug\HomeworkEventModel.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkEventModel\HomeworkEventModel\obj\Debug\HomeworkEventModel.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkEventModel\HomeworkEventModel\obj\Debug\HomeworkEventModel.pdb

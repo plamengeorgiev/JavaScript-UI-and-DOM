@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Extract inner divs</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>This is the outer div
+        <div>First inner div</div>
+        <div>Second inner div</div>
+        <div>Third inner div</div>
+        <div>Fourth inner div</div>
+        <div>Fifth inner div</div>
+        <ul>
+            <li>Li element one</li>
+            <li>Li element two</li>
+            <li>Li element three</li>
+            <li>Li element four</li>
+            <li>Li element five</li>
+
+        </ul>
+    </div>
+    <button onclick="extractInnerDivsQuerySelector()">Click to extract with querySelector</button>
+    <button onclick="extractInnerDivsGetElements()">Click to extract with detElementsByTagName</button>
+    <p>
+        The result is logged on the console...
+    </p>
+</body>
+</html>

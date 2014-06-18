@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkDomOperations\HomeworkDomOperations\bin\HomeworkDomOperations.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkDomOperations\HomeworkDomOperations\bin\HomeworkDomOperations.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkDomOperations\HomeworkDomOperations\obj\Debug\HomeworkDomOperations.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkDomOperations\HomeworkDomOperations\obj\Debug\HomeworkDomOperations.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkDomOperations\HomeworkDomOperations\obj\Debug\HomeworkDomOperations.pdb

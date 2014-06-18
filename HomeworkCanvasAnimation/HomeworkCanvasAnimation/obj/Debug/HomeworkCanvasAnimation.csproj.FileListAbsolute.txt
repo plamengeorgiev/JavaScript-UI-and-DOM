@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkCanvasAnimation\HomeworkCanvasAnimation\bin\HomeworkCanvasAnimation.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkCanvasAnimation\HomeworkCanvasAnimation\bin\HomeworkCanvasAnimation.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkCanvasAnimation\HomeworkCanvasAnimation\obj\Debug\HomeworkCanvasAnimation.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkCanvasAnimation\HomeworkCanvasAnimation\obj\Debug\HomeworkCanvasAnimation.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkCanvasAnimation\HomeworkCanvasAnimation\obj\Debug\HomeworkCanvasAnimation.pdb

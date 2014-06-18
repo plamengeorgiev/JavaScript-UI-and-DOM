@@ -1,0 +1,5 @@
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkHTMLTemplates\HomeworkHTMLTemplates\bin\HomeworkHTMLTemplates.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkHTMLTemplates\HomeworkHTMLTemplates\bin\HomeworkHTMLTemplates.pdb
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkHTMLTemplates\HomeworkHTMLTemplates\obj\Debug\HomeworkHTMLTemplates.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkHTMLTemplates\HomeworkHTMLTemplates\obj\Debug\HomeworkHTMLTemplates.dll
+C:\Users\Plamen\Documents\Visual Studio 2012\Projects\HomeworkHTMLTemplates\HomeworkHTMLTemplates\obj\Debug\HomeworkHTMLTemplates.pdb

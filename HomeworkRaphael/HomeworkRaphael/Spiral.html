@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Spiral</title>
+    <script src='scripts/raphael-min.js'></script>
+</head>
+<body>
+    <script>
+        var paperS = Raphael(10, 10, 800, 600);
+
+        function drawSpiral(centerX, centerY, a, b) {
+            var centralPoint = "M" + centerX + ' ' + centerY,
+                spiralPoints = [centralPoint];
+
+            for (var i = 0; i < 500; i++) {
+                var angle = 0.1 * i,
+                    x = centerX + (a + b * angle) * Math.cos(angle),
+                    y = centerY + (a + b * angle) * Math.sin(angle);
+
+                spiralPoints.push('L ' + x + ' ' + y);
+            }
+
+            var spiralPointsStr = spiralPoints.join(' '),
+            spiral = paperS.path(spiralPointsStr);
+        }
+        drawSpiral(100, 100, 0, 2);
+    </script>
+</body>
+</html>

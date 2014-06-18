@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #the-canvas {
+            border: 5px solid green;
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="the-canvas"></canvas>
+    <script>
+        var canvas = document.getElementById('the-canvas'),
+        ctx = canvas.getContext('2d'),
+        width = 400,
+        height = 200,
+        updateX = 1,
+        updateY = 1;
+
+        canvas.width = width;
+        canvas.height = height;
+
+        var ball = {
+            x: 10,
+            y: height / 2,
+            radius: 5,
+            color: 'red',
+
+            draw: function () {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+            }
+        };
+
+        function clearCanvas() {
+            ctx.clearRect(0, 0, width, height);
+        }
+
+        function update() {
+            clearCanvas();
+            ball.draw();
+
+            if (ball.x < 5 || ball.x > width - 5) {
+                updateX = -updateX;
+            }
+            if (ball.y < 5 || ball.y > height - 5) {
+                updateY = -updateY;
+            }
+
+            ball.x += updateX;
+            ball.y += updateY;
+        }
+
+
+        setInterval(update, 10);
+    </script>
+</body>
+
+</html>

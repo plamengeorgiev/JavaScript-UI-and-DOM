@@ -1,0 +1,5 @@
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkCanvas\HomeworkCanvas\bin\HomeworkCanvas.dll
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkCanvas\HomeworkCanvas\bin\HomeworkCanvas.pdb
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkCanvas\HomeworkCanvas\obj\Debug\HomeworkCanvas.csprojResolveAssemblyReference.cache
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkCanvas\HomeworkCanvas\obj\Debug\HomeworkCanvas.dll
+c:\users\plamen\documents\visual studio 2012\Projects\HomeworkCanvas\HomeworkCanvas\obj\Debug\HomeworkCanvas.pdb
